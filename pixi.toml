@@ -1,0 +1,14 @@
+[project]
+authors = ["Scott Henderson <scottyhq@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "stv-aux-data"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+wesm2geoparquet = "python wesm_gpkg_to_geoparquet.py"
+
+[dependencies]
+geopandas = ">=1.0.1,<2"
+pyarrow = ">=17.0.0,<18"
