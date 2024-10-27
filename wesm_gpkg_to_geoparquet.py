@@ -1,6 +1,18 @@
 import geopandas as gpd
+import pandas as pd
+from cloudpathlib import S3Client
 
-gf = gpd.read_file('~/Downloads/WESM.gpkg',
+# explicitly instantiate a client that always uses the local cache
+client = S3Client(local_cache_dir="./",
+                  no_sign_request=True)
+
+wesm = client.CloudPath("s3://prd-tnm/StagedProducts/Elevation/metadata/WESM.gpkg")
+csv = client.CloudPath("s3://prd-tnm/StagedProducts/Elevation/metadata/WESM.csv")
+
+df = pd.read_csv(csv)
+
+# Now will read from ./prd-tnm/StagedProducts/Elevation/metadata/WESM.gpkg
+gf = gpd.read_file(wesm,
                    fid_as_index=True,
 )
 # Ignore Datum for polygons (<Geographic 2D CRS: EPSG:4269> Name: NAD83)
