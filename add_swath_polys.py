@@ -20,6 +20,15 @@ def get_swath_poly(metadata_link):
 
 # Just load results from previous run and save to GeoJSON and GeoParquet
 df = pd.read_csv('results.csv')
+
 gf = gpd.read_file('WESM-chulls.geojson')
 gf['swath_poly'] = df.swath_poly
 gf.to_file('WESM-chulls.geojson')
+
+gf = gpd.read_parquet('WESM-chulls.geoparquet')
+# Indexed by FID starting at 1!
+gf['swath_poly'] = df.swath_poly.values
+gf.to_parquet('WESM-chulls.geoparquet',
+              schema_version='1.1.0',
+              write_covering_bbox=True,
+)
