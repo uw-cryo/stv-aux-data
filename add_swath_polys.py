@@ -27,6 +27,7 @@ gf.to_file('WESM-chulls.geojson')
 
 gf = gpd.read_parquet('WESM-chulls.geoparquet')
 # Indexed by FID starting at 1!
+# change to swathpolygon_links to match other styles?
 gf['swath_poly'] = df.swath_poly.values
 gf.to_parquet('WESM-chulls.geoparquet',
               schema_version='1.1.0',
