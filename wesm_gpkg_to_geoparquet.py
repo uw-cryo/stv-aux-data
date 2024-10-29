@@ -19,14 +19,13 @@ gf = gpd.read_file(wesm,
 gf = gf.set_crs("EPSG:4326", allow_override=True)
 print(gf.info())
 
-
-# OK, well, let's just save the convex_hulls instead of complex polygons
+# Just save the convex_hulls instead of simplified polygons for now
 gf['geometry'] = gf.geometry.convex_hull
 
 # Also save a geojson for quick browsing on GitHub
-gf.to_file('WESM-chulls.geojson')
+# gf.to_file('WESM-chulls.geojson')
 
-gf.to_parquet('WESM-chulls.geoparquet',
-              schema_version='1.1.0',
-              write_covering_bbox=True,
-)
+# gf.to_parquet('WESM-chulls.geoparquet',
+#               schema_version='1.1.0',
+#               write_covering_bbox=True,
+# )
