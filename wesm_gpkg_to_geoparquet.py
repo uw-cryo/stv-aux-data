@@ -19,6 +19,7 @@ gf = gpd.read_file(wesm,
 gf = gf.set_crs("EPSG:4326", allow_override=True)
 print(gf.info())
 
+
 # OK, well, let's just save the convex_hulls instead of complex polygons
 gf['geometry'] = gf.geometry.convex_hull
 
