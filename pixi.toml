@@ -10,7 +10,20 @@ version = "0.1.0"
 wesm2geoparquet = "python wesm_gpkg_to_geoparquet.py"
 
 [dependencies]
-geopandas = ">=1.0.1,<2"
-pyarrow = ">=17.0.0,<18"
+# Unconstrained latest version of geopandas
+geopandas = "*"
+pyarrow = "*"
 cloudpathlib-s3 = ">=0.20.0,<0.21"
 ipython = ">=8.29.0,<9"
+ipykernel = ">=6.29.5,<7"
+
+
+
+[feature.test.dependencies]
+geopandas = "<1"
+shapely = "<2"
+rtree = "*"
+pyogrio = "*"
+
+[environments]
+test = ["test"]

@@ -2,7 +2,7 @@
 Temporary storage of auxiliary datasets
 
 
-## Usage 
+## Usage
 
 Scripts to generate auxiliary data lives here
 ```
