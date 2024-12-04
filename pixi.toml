@@ -6,18 +6,24 @@ name = "stv-aux-data"
 platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
-[tasks]
+[feature.wesm.tasks]
 wesm2geoparquet = "python wesm_gpkg_to_geoparquet.py"
+
+[feature.pdal.tasks]
+pdal = "python pdal_pipeline.py"
+
+[feature.coincident.tasks]
+get_maxar = "python get_maxar_browse.py"
 
 [dependencies]
 # Unconstrained latest version of geopandas
 geopandas = "*"
-pyarrow = "*"
-cloudpathlib-s3 = ">=0.20.0,<0.21"
 ipython = ">=8.29.0,<9"
 ipykernel = ">=6.29.5,<7"
 
-
+[feature.wesm.dependencies]
+# NOTE: cloudpathlib-s3 doesn't play well with botocore stac-asset dependencies...
+cloudpathlib-s3 = ">=0.20.0,<0.21"
 
 [feature.test.dependencies]
 geopandas = "<1"
@@ -25,5 +31,25 @@ shapely = "<2"
 rtree = "*"
 pyogrio = "*"
 
+[feature.pdal.dependencies]
+rasterio = "*"
+#rasterio = ">=1.3.6,<2"
+# NOTE: libpdal pins arrow to specific version (16) which doesn't work well w/ coincident using latest versions
+#pdal = "*"
+#python-pdal = ">=3.4.5,<4"
+python-pdal="==3.3.0"
+numpy=">=1.21.0,<2"
+dask = ">=2024.11.2,<2025"
+tqdm = ">=4.67.1,<5"
+
+[feature.coincident.dependencies]
+rich = "*"
+
+[feature.coincident.pypi-dependencies]
+coincident = { git = "https://github.com/uw-cryo/coincident.git"}
+
 [environments]
 test = ["test"]
+pdal = ["pdal"]
+coincident = ["coincident"]
+wesm = ["wesm"]
