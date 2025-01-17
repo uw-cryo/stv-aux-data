@@ -1,0 +1,625 @@
+<VRTDataset rasterXSize="100012" rasterYSize="120012">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 18N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26918"]]</SRS>
+  <GeoTransform>  2.9999399996261974e+05,  1.0000000000000000e+00,  0.0000000000000000e+00,  4.7900060000437973e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-999999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x39y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x39y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x39y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x39y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x38y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x38y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x38y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x38y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x38y468_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="110000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x37y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x37y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x37y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x37y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x37y468_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="110000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x36y468_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="110000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y476_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y475_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y474_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x35y468_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="110000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y476_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y475_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y474_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x34y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y476_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y475_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y474_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x33y469_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="100000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y474_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x32y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y474_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y473_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y472_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y471_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x31y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x30y479_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x30y478_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x30y477_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_FingerLakes_2020_A20/TIFF/USGS_1M_18_x30y470_NY_FingerLakes_2020_A20.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="90000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>

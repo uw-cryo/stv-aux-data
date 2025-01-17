@@ -1,0 +1,568 @@
+<VRTDataset rasterXSize="170012" rasterYSize="90012">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 18N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26918"]]</SRS>
+  <GeoTransform>  5.9999399999999721e+05,  1.0000000000002078e+00,  0.0000000000000000e+00,  4.5800060000000000e+06,  0.0000000000000000e+00, -1.0000000041380286e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-3.4028234663852886e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x61y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x61y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x61y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x61y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x61y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x60y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x60y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x60y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x60y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x76y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x76y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x75y458_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x75y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x75y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x74y458_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x74y457_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x74y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x74y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x74y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x73y457_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x73y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x73y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x73y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x72y457_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x72y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x72y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x72y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x72y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x71y456_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x71y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x71y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x71y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x70y455_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x70y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x70y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x70y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x69y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x69y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x69y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x68y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x68y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x68y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x67y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x67y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x67y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x67y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x66y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x66y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x66y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x66y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x65y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x65y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x65y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x65y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x65y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x64y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x64y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x64y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x64y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x64y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x63y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x63y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x63y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x63y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x63y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x62y454_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x62y453_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x62y452_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x62y451_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="70000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/NY_LongIsland_Z18_2014/TIFF/USGS_one_meter_x62y450_NY_LongIsland_Z18_2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="80000" xSize="10012" ySize="10012" />
+      <NODATA>-3.4028234663852886e+38</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

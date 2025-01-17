@@ -1,0 +1,1129 @@
+<VRTDataset rasterXSize="230012" rasterYSize="70012">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / UTM zone 14N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-99],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","26914"]]</SRS>
+  <GeoTransform>  4.8999400000000000e+05,  1.0000000000000000e+00,  0.0000000000000000e+00,  4.1600060000000000e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-999999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x70y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="210000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x69y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="200000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x68y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="190000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x67y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="180000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x66y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="170000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x65y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="160000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x64y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="150000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x63y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="140000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x62y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="130000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x61y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="120000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y416_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="0" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x60y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="110000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x59y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x59y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x59y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x59y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x59y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="100000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x58y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x58y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x58y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x58y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x58y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="90000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x57y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x57y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x57y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x57y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x57y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="80000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x56y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x56y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x56y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x56y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x56y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="70000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x55y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x55y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x55y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x55y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x55y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="60000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x54y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="50000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x53y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="40000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x52y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="30000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x51y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="20000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x50y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="10000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x49y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="0" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y415_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="10000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y414_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="20000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y413_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="30000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y412_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="40000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y411_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="50000" xSize="10012" ySize="10012" />
+      <NODATA>-3.40282306073709653e+38</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1m/Projects/KS_SthCentral_AOI4_2015/TIFF/USGS_one_meter_x71y410_KS_SthCentral_AOI4_2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10012" RasterYSize="10012" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="10012" ySize="10012" />
+      <DstRect xOff="220000" yOff="60000" xSize="10012" ySize="10012" />
+      <NODATA>-999999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>
